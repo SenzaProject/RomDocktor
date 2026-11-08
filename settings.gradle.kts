@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "RomDocktor"
-include(":app", ":core-shell", ":core-model")
+include(":app", ":core-shell", ":core-model", ":collector", ":parser")

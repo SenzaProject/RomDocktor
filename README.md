@@ -1,6 +1,6 @@
 # ROM Doctor (RomDocktor)
 
-Aplikasi Android untuk mendiagnosis ROM hasil port. Status: **Tahap 1 — Fondasi**.
+Aplikasi Android untuk mendiagnosis ROM hasil port. Status: **Tahap 2 — Collector + Parser** (Tahap 1 Fondasi sudah selesai).
 
 ## Isi Tahap 1
 - `core-model`: Evidence, CheckResult (Ok / Problem / Unavailable / Error), Severity, Finding, Capability.
@@ -16,3 +16,8 @@ APK ada di tab Actions → run terbaru → Artifacts → `RomDoctor-debug`.
 
 ## Batasan
 - Tanpa root, dmesg/lshal/pstore umumnya tidak terbaca; aplikasi menandainya "Tidak dapat diperiksa", bukan "aman".
+
+## Tahap 2
+- `collector`: DeviceCollector mengambil output mentah (getprop, mounts, getenforce, service list, lshal, dmesg, logcat, pm list, pstore). Gagal = Unavailable dengan alasan nyata.
+- `parser`: GetpropParser, MountsParser, ServiceListParser, LshalParser, LogcatParser, DmesgParser, GetenforceParser, PmListParser. Setiap hasil membawa `unparsedLines`.
+- Fixture nyata: `sh tools/capture_fixtures.sh` (Termux + root) → `testing/fixtures/`.

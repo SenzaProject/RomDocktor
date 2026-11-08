@@ -1,0 +1,463 @@
+| All HIDL binderized services (registered with hwservicemanager)
+VINTF R Interface                                                                                Thread Use Server Clients
+FM    Y android.frameworks.cameraservice.service@2.0::ICameraService/default                     0/2        1292   
+FM    Y android.frameworks.cameraservice.service@2.1::ICameraService/default                     0/2        1292   
+FM    Y android.frameworks.cameraservice.service@2.2::ICameraService/default                     0/2        1292   
+FM    Y android.frameworks.sensorservice@1.0::ISensorManager/default                             0/5        1763   
+DM,FC Y android.hardware.audio.effect@7.0::IEffectsFactory/default                               0/10       1000   
+DM,FC Y android.hardware.audio@7.0::IDevicesFactory/default                                      0/10       1000   
+DM,FC Y android.hardware.biometrics.face@1.0::IBiometricsFace/default                            0/1        1443   
+DM,FC Y android.hardware.biometrics.fingerprint@2.1::IBiometricsFingerprint/default              0/2        1444   
+DM    Y android.hardware.bluetooth.audio@2.0::IBluetoothAudioProvidersFactory/default            0/10       1000   
+DM    Y android.hardware.bluetooth.audio@2.1::IBluetoothAudioProvidersFactory/default            0/10       1000   
+DM,FC Y android.hardware.bluetooth@1.0::IBluetoothHci/default                                    0/3        1001   
+DM,FC Y android.hardware.bluetooth@1.1::IBluetoothHci/default                                    0/3        1001   
+DM    Y android.hardware.boot@1.0::IBootControl/default                                          0/1        739    
+DM    Y android.hardware.boot@1.1::IBootControl/default                                          0/1        739    
+DM,FC Y android.hardware.boot@1.2::IBootControl/default                                          0/1        739    
+DM,FC Y android.hardware.camera.provider@2.4::ICameraProvider/internal/0                         0/3        1338   
+DM,FC Y android.hardware.camera.provider@2.5::ICameraProvider/internal/0                         0/3        1338   
+DM,FC Y android.hardware.camera.provider@2.6::ICameraProvider/internal/0                         0/3        1338   
+DM    Y android.hardware.drm@1.0::ICryptoFactory/clearkey                                        0/3        1002   
+DM    Y android.hardware.drm@1.0::ICryptoFactory/widevine                                        0/3        1003   
+DM    Y android.hardware.drm@1.0::IDrmFactory/clearkey                                           0/3        1002   
+DM    Y android.hardware.drm@1.0::IDrmFactory/widevine                                           0/3        1003   
+DM    Y android.hardware.drm@1.1::ICryptoFactory/clearkey                                        0/3        1002   
+DM    Y android.hardware.drm@1.1::ICryptoFactory/widevine                                        0/3        1003   
+DM    Y android.hardware.drm@1.1::IDrmFactory/clearkey                                           0/3        1002   
+DM    Y android.hardware.drm@1.1::IDrmFactory/widevine                                           0/3        1003   
+DM    Y android.hardware.drm@1.2::ICryptoFactory/clearkey                                        0/3        1002   
+DM    Y android.hardware.drm@1.2::ICryptoFactory/widevine                                        0/3        1003   
+DM    Y android.hardware.drm@1.2::IDrmFactory/clearkey                                           0/3        1002   
+DM    Y android.hardware.drm@1.2::IDrmFactory/widevine                                           0/3        1003   
+DM,FC Y android.hardware.drm@1.3::ICryptoFactory/clearkey                                        0/3        1002   
+DM,FC Y android.hardware.drm@1.3::ICryptoFactory/widevine                                        0/3        1003   
+DM,FC Y android.hardware.drm@1.3::IDrmFactory/clearkey                                           0/3        1002   
+DM,FC Y android.hardware.drm@1.3::IDrmFactory/widevine                                           0/3        1003   
+DM,FC Y android.hardware.drm@1.4::ICryptoFactory/clearkey                                        0/3        1002   
+DM,FC Y android.hardware.drm@1.4::ICryptoFactory/widevine                                        0/3        1003   
+DM,FC Y android.hardware.drm@1.4::IDrmFactory/clearkey                                           0/3        1002   
+DM,FC Y android.hardware.drm@1.4::IDrmFactory/widevine                                           0/3        1003   
+DM,FC Y android.hardware.gatekeeper@1.0::IGatekeeper/default                                     0/1        1004   
+DM    Y android.hardware.gnss@1.0::IGnss/default                                                 0/1        1005   
+DM    Y android.hardware.gnss@1.1::IGnss/default                                                 0/1        1005   
+DM,FC Y android.hardware.gnss@2.0::IGnss/default                                                 0/1        1005   
+DM,FC Y android.hardware.gnss@2.1::IGnss/default                                                 0/1        1005   
+DM,FC Y android.hardware.graphics.allocator@4.0::IAllocator/default                              0/4        1009   
+DM,FC Y android.hardware.graphics.composer@2.1::IComposer/default                                0/3        1010   
+DM,FC Y android.hardware.graphics.composer@2.2::IComposer/default                                0/3        1010   
+DM,FC Y android.hardware.graphics.composer@2.3::IComposer/default                                0/3        1010   
+DM    Y android.hardware.health@2.0::IHealth/default                                             1/1        1011   
+DM    Y android.hardware.health@2.1::IHealth/default                                             1/1        1011   
+DM,FC Y android.hardware.media.c2@1.0::IComponentStore/default                                   0/6        1019   
+FM,FC Y android.hardware.media.c2@1.0::IComponentStore/software                                  0/7        1382   
+DM,FC Y android.hardware.media.c2@1.1::IComponentStore/default                                   0/6        1019   
+FM,FC Y android.hardware.media.c2@1.1::IComponentStore/software                                  0/7        1382   
+FM,FC Y android.hardware.media.c2@1.2::IComponentStore/software                                  0/7        1382   
+DM    Y android.hardware.nfc@1.0::INfc/default                                                   0/1        1027   
+DM    Y android.hardware.nfc@1.1::INfc/default                                                   0/1        1027   
+DM,FC Y android.hardware.nfc@1.2::INfc/default                                                   0/1        1027   
+DM    Y android.hardware.radio.config@1.0::IRadioConfig/default                                  0/1        1670   
+DM,FC Y android.hardware.radio.config@1.1::IRadioConfig/default                                  0/1        1670   
+DM,FC Y android.hardware.radio.config@1.3::IRadioConfig/default                                  0/1        1670   
+DM    Y android.hardware.radio@1.0::IRadio/em1                                                   0/1        1670   
+DM    Y android.hardware.radio@1.0::IRadio/em2                                                   0/1        1670   
+DM    Y android.hardware.radio@1.0::IRadio/em3                                                   0/1        1670   
+DM    Y android.hardware.radio@1.0::IRadio/imsAospSlot1                                          0/1        1670   
+DM    Y android.hardware.radio@1.0::IRadio/imsAospSlot2                                          0/1        1670   
+DM    Y android.hardware.radio@1.0::IRadio/imsAospSlot3                                          0/1        1670   
+DM    Y android.hardware.radio@1.0::IRadio/se1                                                   0/1        1670   
+DM    Y android.hardware.radio@1.0::IRadio/se2                                                   0/1        1670   
+DM    Y android.hardware.radio@1.0::IRadio/se3                                                   0/1        1670   
+DM    Y android.hardware.radio@1.0::IRadio/slot1                                                 0/1        1670   
+DM    Y android.hardware.radio@1.0::IRadio/slot2                                                 0/1        1670   
+DM    Y android.hardware.radio@1.0::IRadio/slot3                                                 0/1        1670   
+DM    Y android.hardware.radio@1.0::ISap/slot1                                                   0/1        1670   
+DM    Y android.hardware.radio@1.0::ISap/slot2                                                   0/1        1670   
+DM    Y android.hardware.radio@1.0::ISap/slot3                                                   0/1        1670   
+DM    Y android.hardware.radio@1.1::IRadio/em1                                                   0/1        1670   
+DM    Y android.hardware.radio@1.1::IRadio/em2                                                   0/1        1670   
+DM    Y android.hardware.radio@1.1::IRadio/em3                                                   0/1        1670   
+DM    Y android.hardware.radio@1.1::IRadio/imsAospSlot1                                          0/1        1670   
+DM    Y android.hardware.radio@1.1::IRadio/imsAospSlot2                                          0/1        1670   
+DM    Y android.hardware.radio@1.1::IRadio/imsAospSlot3                                          0/1        1670   
+DM    Y android.hardware.radio@1.1::IRadio/se1                                                   0/1        1670   
+DM    Y android.hardware.radio@1.1::IRadio/se2                                                   0/1        1670   
+DM    Y android.hardware.radio@1.1::IRadio/se3                                                   0/1        1670   
+DM    Y android.hardware.radio@1.1::IRadio/slot1                                                 0/1        1670   
+DM    Y android.hardware.radio@1.1::IRadio/slot2                                                 0/1        1670   
+DM    Y android.hardware.radio@1.1::IRadio/slot3                                                 0/1        1670   
+DM    Y android.hardware.radio@1.1::ISap/slot1                                                   0/1        1670   
+DM    Y android.hardware.radio@1.1::ISap/slot2                                                   0/1        1670   
+DM    Y android.hardware.radio@1.1::ISap/slot3                                                   0/1        1670   
+DM,FC Y android.hardware.radio@1.2::IRadio/em1                                                   0/1        1670   
+DM,FC Y android.hardware.radio@1.2::IRadio/em2                                                   0/1        1670   
+DM,FC Y android.hardware.radio@1.2::IRadio/em3                                                   0/1        1670   
+DM,FC Y android.hardware.radio@1.2::IRadio/imsAospSlot1                                          0/1        1670   
+DM,FC Y android.hardware.radio@1.2::IRadio/imsAospSlot2                                          0/1        1670   
+DM,FC Y android.hardware.radio@1.2::IRadio/imsAospSlot3                                          0/1        1670   
+DM,FC Y android.hardware.radio@1.2::IRadio/se1                                                   0/1        1670   
+DM,FC Y android.hardware.radio@1.2::IRadio/se2                                                   0/1        1670   
+DM,FC Y android.hardware.radio@1.2::IRadio/se3                                                   0/1        1670   
+DM,FC Y android.hardware.radio@1.2::IRadio/slot1                                                 0/1        1670   
+DM,FC Y android.hardware.radio@1.2::IRadio/slot2                                                 0/1        1670   
+DM,FC Y android.hardware.radio@1.2::IRadio/slot3                                                 0/1        1670   
+DM,FC Y android.hardware.radio@1.2::ISap/slot1                                                   0/1        1670   
+DM,FC Y android.hardware.radio@1.2::ISap/slot2                                                   0/1        1670   
+DM,FC Y android.hardware.radio@1.2::ISap/slot3                                                   0/1        1670   
+DM    Y android.hardware.radio@1.3::IRadio/em1                                                   0/1        1670   
+DM    Y android.hardware.radio@1.3::IRadio/em2                                                   0/1        1670   
+DM    Y android.hardware.radio@1.3::IRadio/em3                                                   0/1        1670   
+DM    Y android.hardware.radio@1.3::IRadio/imsAospSlot1                                          0/1        1670   
+DM    Y android.hardware.radio@1.3::IRadio/imsAospSlot2                                          0/1        1670   
+DM    Y android.hardware.radio@1.3::IRadio/imsAospSlot3                                          0/1        1670   
+DM    Y android.hardware.radio@1.3::IRadio/se1                                                   0/1        1670   
+DM    Y android.hardware.radio@1.3::IRadio/se2                                                   0/1        1670   
+DM    Y android.hardware.radio@1.3::IRadio/se3                                                   0/1        1670   
+DM    Y android.hardware.radio@1.3::IRadio/slot1                                                 0/1        1670   
+DM    Y android.hardware.radio@1.3::IRadio/slot2                                                 0/1        1670   
+DM    Y android.hardware.radio@1.3::IRadio/slot3                                                 0/1        1670   
+DM    Y android.hardware.radio@1.4::IRadio/em1                                                   0/1        1670   
+DM    Y android.hardware.radio@1.4::IRadio/em2                                                   0/1        1670   
+DM    Y android.hardware.radio@1.4::IRadio/em3                                                   0/1        1670   
+DM    Y android.hardware.radio@1.4::IRadio/imsAospSlot1                                          0/1        1670   
+DM    Y android.hardware.radio@1.4::IRadio/imsAospSlot2                                          0/1        1670   
+DM    Y android.hardware.radio@1.4::IRadio/imsAospSlot3                                          0/1        1670   
+DM    Y android.hardware.radio@1.4::IRadio/se1                                                   0/1        1670   
+DM    Y android.hardware.radio@1.4::IRadio/se2                                                   0/1        1670   
+DM    Y android.hardware.radio@1.4::IRadio/se3                                                   0/1        1670   
+DM    Y android.hardware.radio@1.4::IRadio/slot1                                                 0/1        1670   
+DM    Y android.hardware.radio@1.4::IRadio/slot2                                                 0/1        1670   
+DM    Y android.hardware.radio@1.4::IRadio/slot3                                                 0/1        1670   
+DM    Y android.hardware.radio@1.5::IRadio/em1                                                   0/1        1670   
+DM    Y android.hardware.radio@1.5::IRadio/em2                                                   0/1        1670   
+DM    Y android.hardware.radio@1.5::IRadio/em3                                                   0/1        1670   
+DM    Y android.hardware.radio@1.5::IRadio/imsAospSlot1                                          0/1        1670   
+DM    Y android.hardware.radio@1.5::IRadio/imsAospSlot2                                          0/1        1670   
+DM    Y android.hardware.radio@1.5::IRadio/imsAospSlot3                                          0/1        1670   
+DM    Y android.hardware.radio@1.5::IRadio/se1                                                   0/1        1670   
+DM    Y android.hardware.radio@1.5::IRadio/se2                                                   0/1        1670   
+DM    Y android.hardware.radio@1.5::IRadio/se3                                                   0/1        1670   
+DM    Y android.hardware.radio@1.5::IRadio/slot1                                                 0/1        1670   
+DM    Y android.hardware.radio@1.5::IRadio/slot2                                                 0/1        1670   
+DM    Y android.hardware.radio@1.5::IRadio/slot3                                                 0/1        1670   
+DM,FC Y android.hardware.radio@1.6::IRadio/em1                                                   0/1        1670   
+DM,FC Y android.hardware.radio@1.6::IRadio/em2                                                   0/1        1670   
+DM,FC Y android.hardware.radio@1.6::IRadio/em3                                                   0/1        1670   
+DM,FC Y android.hardware.radio@1.6::IRadio/imsAospSlot1                                          0/1        1670   
+DM,FC Y android.hardware.radio@1.6::IRadio/imsAospSlot2                                          0/1        1670   
+DM,FC Y android.hardware.radio@1.6::IRadio/imsAospSlot3                                          0/1        1670   
+DM,FC Y android.hardware.radio@1.6::IRadio/se1                                                   0/1        1670   
+DM,FC Y android.hardware.radio@1.6::IRadio/se2                                                   0/1        1670   
+DM,FC Y android.hardware.radio@1.6::IRadio/se3                                                   0/1        1670   
+DM,FC Y android.hardware.radio@1.6::IRadio/slot1                                                 0/1        1670   
+DM,FC Y android.hardware.radio@1.6::IRadio/slot2                                                 0/1        1670   
+DM,FC Y android.hardware.radio@1.6::IRadio/slot3                                                 0/1        1670   
+DM,FC Y android.hardware.secure_element@1.0::ISecureElement/SIM1                                 0/3        1033   
+DM,FC Y android.hardware.secure_element@1.0::ISecureElement/SIM2                                 0/3        1033   
+DM,FC Y android.hardware.secure_element@1.1::ISecureElement/SIM1                                 0/3        1033   
+DM,FC Y android.hardware.secure_element@1.1::ISecureElement/SIM2                                 0/3        1033   
+DM,FC Y android.hardware.secure_element@1.2::ISecureElement/SIM1                                 0/3        1033   
+DM,FC Y android.hardware.secure_element@1.2::ISecureElement/SIM2                                 0/3        1033   
+DM,FC Y android.hardware.sensors@2.0::ISensors/default                                           0/1        1320   
+DM    Y android.hardware.soundtrigger@2.0::ISoundTriggerHw/default                               0/10       1000   
+DM    Y android.hardware.soundtrigger@2.1::ISoundTriggerHw/default                               0/10       1000   
+DM    Y android.hardware.soundtrigger@2.2::ISoundTriggerHw/default                               0/10       1000   
+DM,FC Y android.hardware.soundtrigger@2.3::ISoundTriggerHw/default                               0/10       1000   
+DM    Y android.hardware.thermal@1.0::IThermal/default                                           0/1        1036   
+DM,FC Y android.hardware.thermal@2.0::IThermal/default                                           0/1        1036   
+DM,FC Y android.hardware.usb.gadget@1.0::IUsbGadget/default                                      0/2        1037   
+DM,FC Y android.hardware.usb.gadget@1.1::IUsbGadget/default                                      0/2        1037   
+DM,FC Y android.hardware.usb@1.0::IUsb/default                                                   0/2        1037   
+DM,FC Y android.hardware.usb@1.1::IUsb/default                                                   0/2        1037   
+DM,FC Y android.hardware.usb@1.2::IUsb/default                                                   0/2        1037   
+DM,FC Y android.hardware.usb@1.3::IUsb/default                                                   0/2        1037   
+DM    Y android.hardware.wifi.supplicant@1.0::ISupplicant/default                                1/1        2154   
+DM    Y android.hardware.wifi.supplicant@1.1::ISupplicant/default                                1/1        2154   
+DM    Y android.hardware.wifi.supplicant@1.2::ISupplicant/default                                1/1        2154   
+DM    Y android.hardware.wifi.supplicant@1.3::ISupplicant/default                                1/1        2154   
+DM    Y android.hardware.wifi.supplicant@1.4::ISupplicant/default                                1/1        2154   
+DM    Y android.hardware.wifi@1.0::IWifi/default                                                 0/1        2129   
+DM    Y android.hardware.wifi@1.1::IWifi/default                                                 0/1        2129   
+DM    Y android.hardware.wifi@1.2::IWifi/default                                                 0/1        2129   
+DM,FC Y android.hardware.wifi@1.3::IWifi/default                                                 0/1        2129   
+DM,FC Y android.hardware.wifi@1.4::IWifi/default                                                 0/1        2129   
+DM,FC Y android.hardware.wifi@1.5::IWifi/default                                                 0/1        2129   
+FM    Y android.hidl.allocator@1.0::IAllocator/ashmem                                            1/1        996    
+X     Y android.hidl.base@1.0::IBase/AgpsDebugInterface                                          0/3        1039   
+X     Y android.hidl.base@1.0::IBase/AgpsInterface                                               0/3        1039   
+X     Y android.hidl.base@1.0::IBase/SIM1                                                        0/3        1033   
+X     Y android.hidl.base@1.0::IBase/SIM2                                                        0/3        1033   
+X     Y android.hidl.base@1.0::IBase/ashmem                                                      1/1        996    
+X     Y android.hidl.base@1.0::IBase/clearkey                                                    0/3        1002   
+X     Y android.hidl.base@1.0::IBase/default                                                     1/1        2154   
+X     Y android.hidl.base@1.0::IBase/em1                                                         0/1        1670   
+X     Y android.hidl.base@1.0::IBase/em2                                                         0/1        1670   
+X     Y android.hidl.base@1.0::IBase/em3                                                         0/1        1670   
+X     Y android.hidl.base@1.0::IBase/imsAospSlot1                                                0/1        1670   
+X     Y android.hidl.base@1.0::IBase/imsAospSlot2                                                0/1        1670   
+X     Y android.hidl.base@1.0::IBase/imsAospSlot3                                                0/1        1670   
+X     Y android.hidl.base@1.0::IBase/imsSlot1                                                    0/1        1670   
+X     Y android.hidl.base@1.0::IBase/imsSlot2                                                    0/1        1670   
+X     Y android.hidl.base@1.0::IBase/imsSlot3                                                    0/1        1670   
+X     Y android.hidl.base@1.0::IBase/internal/0                                                  0/3        1338   
+X     Y android.hidl.base@1.0::IBase/mtkAssist1                                                  0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkAssist2                                                  0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkAssist3                                                  0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkCap1                                                     0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkCap2                                                     0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkCap3                                                     0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkEm1                                                      0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkEm2                                                      0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkEm3                                                      0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkRcs1                                                     0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkRcs2                                                     0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkRcs3                                                     0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkRsu1                                                     0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkRsu2                                                     0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkRsu3                                                     0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkSe1                                                      0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkSe2                                                      0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkSe3                                                      0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkSlot1                                                    0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkSlot2                                                    0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkSlot3                                                    0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkSmartRatSwitch1                                          0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkSmartRatSwitch2                                          0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtkSmartRatSwitch3                                          0/1        1670   
+X     Y android.hidl.base@1.0::IBase/mtk_agps2framework                                          0/3        1039   
+X     Y android.hidl.base@1.0::IBase/mtk_agpsd2debugService                                      0/3        1039   
+X     Y android.hidl.base@1.0::IBase/mtk_debugService2agpsd                                      0/3        1039   
+X     Y android.hidl.base@1.0::IBase/mtk_debugService2mnld                                       0/3        1039   
+X     Y android.hidl.base@1.0::IBase/mtk_framework2agps                                          0/3        1039   
+X     Y android.hidl.base@1.0::IBase/mtk_lbs_log_v2s                                             0/3        1039   
+X     Y android.hidl.base@1.0::IBase/mtk_lppe_socket_agps                                        0/3        1039   
+X     Y android.hidl.base@1.0::IBase/mtk_lppe_socket_bt                                          0/3        1039   
+X     Y android.hidl.base@1.0::IBase/mtk_lppe_socket_ipaddr                                      0/3        1039   
+X     Y android.hidl.base@1.0::IBase/mtk_lppe_socket_lbs                                         0/3        1039   
+X     Y android.hidl.base@1.0::IBase/mtk_lppe_socket_network                                     0/3        1039   
+X     Y android.hidl.base@1.0::IBase/mtk_lppe_socket_sensor                                      0/3        1039   
+X     Y android.hidl.base@1.0::IBase/mtk_lppe_socket_wlan                                        0/3        1039   
+X     Y android.hidl.base@1.0::IBase/mtk_meta2mnld                                               0/3        1039   
+X     Y android.hidl.base@1.0::IBase/mtk_mnld2debugService                                       0/3        1039   
+X     Y android.hidl.base@1.0::IBase/mtk_mnld2mtklogger                                          0/3        1039   
+X     Y android.hidl.base@1.0::IBase/mtk_mnld2nlputils                                           0/3        1039   
+X     Y android.hidl.base@1.0::IBase/mtk_mtklogger2mnld                                          0/3        1039   
+X     Y android.hidl.base@1.0::IBase/se1                                                         0/1        1670   
+X     Y android.hidl.base@1.0::IBase/se2                                                         0/1        1670   
+X     Y android.hidl.base@1.0::IBase/se3                                                         0/1        1670   
+X     Y android.hidl.base@1.0::IBase/slot1                                                       0/1        1670   
+X     Y android.hidl.base@1.0::IBase/slot2                                                       0/1        1670   
+X     Y android.hidl.base@1.0::IBase/slot3                                                       0/1        1670   
+X     Y android.hidl.base@1.0::IBase/software                                                    0/7        1382   
+X     Y android.hidl.base@1.0::IBase/widevine                                                    0/3        1003   
+FM    Y android.hidl.manager@1.0::IServiceManager/default                                        1/1        709    
+FM    Y android.hidl.manager@1.1::IServiceManager/default                                        1/1        709    
+FM    Y android.hidl.manager@1.2::IServiceManager/default                                        1/1        709    
+FM    Y android.hidl.token@1.0::ITokenManager/default                                            1/1        709    
+FM    Y android.system.net.netd@1.0::INetd/default                                               0/1        989    
+FM    Y android.system.net.netd@1.1::INetd/default                                               0/1        989    
+DM    Y vendor.goodix.hardware.biometrics.fingerprint@2.1::IGoodixFingerprintDaemon/default      0/2        1444   
+DM,FC Y vendor.mediatek.hardware.apuware.apusys@2.0::INeuronApusys/default                       0/2        1257   
+DM,FC Y vendor.mediatek.hardware.apuware.apusys@2.1::INeuronApusys/default                       0/2        1257   
+DM,FC Y vendor.mediatek.hardware.apuware.hmp@1.0::IApuwareHmp/default                            0/2        1257   
+DM,FC Y vendor.mediatek.hardware.apuware.utils@2.0::IApuwareUtils/default                        0/2        1257   
+DM,FC Y vendor.mediatek.hardware.bluetooth.audio@2.1::IBluetoothAudioProvidersFactory/default    0/10       1000   
+DM,FC Y vendor.mediatek.hardware.bluetooth.audio@2.2::IBluetoothAudioProvidersFactory/default    0/10       1000   
+DM,FC Y vendor.mediatek.hardware.camera.atms@1.0::IATMs/default                                  0/3        1338   
+DM    Y vendor.mediatek.hardware.camera.bgservice@1.0::IBGService/internal/0                     0/3        1338   
+DM,FC Y vendor.mediatek.hardware.camera.bgservice@1.1::IBGService/internal/0                     0/3        1338   
+DM    Y vendor.mediatek.hardware.camera.isphal@1.0::IISPModule/internal/0                        0/3        1338   
+DM,FC Y vendor.mediatek.hardware.camera.isphal@1.1::IISPModule/internal/0                        0/3        1338   
+DM,FC Y vendor.mediatek.hardware.composer_ext@1.0::IComposerExt/default                          0/3        1010   
+DM,FC Y vendor.mediatek.hardware.lbs@1.0::ILbs/AgpsDebugInterface                                0/3        1039   
+DM,FC Y vendor.mediatek.hardware.lbs@1.0::ILbs/AgpsInterface                                     0/3        1039   
+DM,FC Y vendor.mediatek.hardware.lbs@1.0::ILbs/mtk_agps2framework                                0/3        1039   
+DM,FC Y vendor.mediatek.hardware.lbs@1.0::ILbs/mtk_agpsd2debugService                            0/3        1039   
+DM,FC Y vendor.mediatek.hardware.lbs@1.0::ILbs/mtk_debugService2agpsd                            0/3        1039   
+DM,FC Y vendor.mediatek.hardware.lbs@1.0::ILbs/mtk_debugService2mnld                             0/3        1039   
+DM,FC Y vendor.mediatek.hardware.lbs@1.0::ILbs/mtk_framework2agps                                0/3        1039   
+DM,FC Y vendor.mediatek.hardware.lbs@1.0::ILbs/mtk_lbs_log_v2s                                   0/3        1039   
+DM,FC Y vendor.mediatek.hardware.lbs@1.0::ILbs/mtk_lppe_socket_agps                              0/3        1039   
+DM,FC Y vendor.mediatek.hardware.lbs@1.0::ILbs/mtk_lppe_socket_bt                                0/3        1039   
+DM,FC Y vendor.mediatek.hardware.lbs@1.0::ILbs/mtk_lppe_socket_ipaddr                            0/3        1039   
+DM,FC Y vendor.mediatek.hardware.lbs@1.0::ILbs/mtk_lppe_socket_lbs                               0/3        1039   
+DM,FC Y vendor.mediatek.hardware.lbs@1.0::ILbs/mtk_lppe_socket_network                           0/3        1039   
+DM,FC Y vendor.mediatek.hardware.lbs@1.0::ILbs/mtk_lppe_socket_sensor                            0/3        1039   
+DM,FC Y vendor.mediatek.hardware.lbs@1.0::ILbs/mtk_lppe_socket_wlan                              0/3        1039   
+DM,FC Y vendor.mediatek.hardware.lbs@1.0::ILbs/mtk_meta2mnld                                     0/3        1039   
+DM,FC Y vendor.mediatek.hardware.lbs@1.0::ILbs/mtk_mnld2debugService                             0/3        1039   
+DM,FC Y vendor.mediatek.hardware.lbs@1.0::ILbs/mtk_mnld2mtklogger                                0/3        1039   
+DM,FC Y vendor.mediatek.hardware.lbs@1.0::ILbs/mtk_mnld2nlputils                                 0/3        1039   
+DM,FC Y vendor.mediatek.hardware.lbs@1.0::ILbs/mtk_mtklogger2mnld                                0/3        1039   
+DM    Y vendor.mediatek.hardware.mtkpower@1.0::IMtkPerf/default                                  0/1        1046   
+DM    Y vendor.mediatek.hardware.mtkpower@1.0::IMtkPower/default                                 0/1        1046   
+DM    Y vendor.mediatek.hardware.mtkpower@1.1::IMtkPerf/default                                  0/1        1046   
+DM    Y vendor.mediatek.hardware.mtkpower@1.1::IMtkPower/default                                 0/1        1046   
+DM,FC Y vendor.mediatek.hardware.mtkpower@1.2::IMtkPerf/default                                  0/1        1046   
+DM,FC Y vendor.mediatek.hardware.mtkpower@1.2::IMtkPower/default                                 0/1        1046   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/imsSlot1                            0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/imsSlot2                            0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/imsSlot3                            0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkAssist1                          0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkAssist2                          0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkAssist3                          0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkCap1                             0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkCap2                             0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkCap3                             0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkEm1                              0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkEm2                              0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkEm3                              0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkRcs1                             0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkRcs2                             0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkRcs3                             0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkRsu1                             0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkRsu2                             0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkRsu3                             0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkSe1                              0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkSe2                              0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkSe3                              0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkSlot1                            0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkSlot2                            0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkSlot3                            0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkSmartRatSwitch1                  0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkSmartRatSwitch2                  0/1        1670   
+DM,FC Y vendor.mediatek.hardware.mtkradioex@3.0::IMtkRadioEx/mtkSmartRatSwitch3                  0/1        1670   
+DM,FC Y vendor.mediatek.hardware.netdagent@1.0::INetdagent/default                               0/2        1449   
+DM    Y vendor.mediatek.hardware.nvram@1.0::INvram/default                                       1/1        1051   
+DM,FC Y vendor.mediatek.hardware.nvram@1.1::INvram/default                                       1/1        1051   
+DM,FC Y vendor.mediatek.hardware.nwk_opt@1.0::INwkOpt/default                                    0/3        1052   
+DM    Y vendor.mediatek.hardware.paytrigger@1.0::IPayTrigger/default                             0/1        1055   
+DM    Y vendor.mediatek.hardware.pq@2.0::IPictureQuality/default                                 0/3        1380   
+DM,FC Y vendor.mediatek.hardware.pq@2.10::IPictureQuality/default                                0/3        1380   
+DM,FC Y vendor.mediatek.hardware.pq@2.11::IPictureQuality/default                                0/3        1380   
+DM,FC Y vendor.mediatek.hardware.pq@2.12::IPictureQuality/default                                0/3        1380   
+DM,FC Y vendor.mediatek.hardware.pq@2.13::IPictureQuality/default                                0/3        1380   
+DM,FC Y vendor.mediatek.hardware.pq@2.14::IPictureQuality/default                                0/3        1380   
+DM,FC Y vendor.mediatek.hardware.pq@2.15::IPictureQuality/default                                0/3        1380   
+DM    Y vendor.mediatek.hardware.pq@2.1::IPictureQuality/default                                 0/3        1380   
+DM    Y vendor.mediatek.hardware.pq@2.2::IPictureQuality/default                                 0/3        1380   
+DM,FC Y vendor.mediatek.hardware.pq@2.3::IPictureQuality/default                                 0/3        1380   
+DM,FC Y vendor.mediatek.hardware.pq@2.4::IPictureQuality/default                                 0/3        1380   
+DM,FC Y vendor.mediatek.hardware.pq@2.5::IPictureQuality/default                                 0/3        1380   
+DM,FC Y vendor.mediatek.hardware.pq@2.6::IPictureQuality/default                                 0/3        1380   
+DM,FC Y vendor.mediatek.hardware.pq@2.7::IPictureQuality/default                                 0/3        1380   
+DM,FC Y vendor.mediatek.hardware.pq@2.8::IPictureQuality/default                                 0/3        1380   
+DM,FC Y vendor.mediatek.hardware.pq@2.9::IPictureQuality/default                                 0/3        1380   
+DM    Y vendor.mediatek.hardware.tranHwInfo@1.0::ITranHwInfo/default                             0/1        837    
+DM,FC Y vendor.mediatek.hardware.videotelephony@1.0::IVideoTelephony/default                     0/1        1038   
+DM,FC Y vendor.nxp.nxpnfc@2.0::INxpNfc/default                                                   0/1        1027   
+DM    Y vendor.silead.hardware.fingerprintext@1.0::ISileadFingerprint/default                    1/1        1456   
+DM    Y vendor.transsion.hardware.security.deviceauthen@2.0::IDeviceAuthen2/default              1/1        1056   
+DM,FC Y vendor.transsion.hardware.security.hap@1.0::IHap/default                                 0/3        1459   
+DM    Y vendor.transsion.hardware.security.trancriticalparavfy@1.0::ITranCriticalParaVfy/default 0/1        1057   
+DM,FC Y vendor.transsion.hardware.tne.tneengine@1.0::ITne/default                                1/1        1272   
+DM,FC Y vendor.transsion.hardware.trancam.trancamserver@1.0::ITrancamserver/default              0/1        843    
+DM,FC Y vendor.transsion.hardware.trandatacenter@1.0::ITranDataCenter/default                    0/1        1185   
+DM,FC Y vendor.transsion.hardware.tranlog@1.0::ITranLog/default                                  0/1        1186   
+DM,FC Y vendor.transsion.hardware.tranlogconfig@1.0::ITranLogConfig/default                      0/1        1187   
+DM    Y vendor.transsion.hardware.transtorage.storage@1.0::IStorage/default                      0/1        1127   
+DM    Y vendor.transsion.performance.sched@1.0::ITransSched/default                              0/2        1287   
+DM,FC Y vendor.trustonic.tee.tui@1.0::ITui/default                                               1/3        1075   
+DM    Y vendor.trustonic.tee@1.0::ITee/default                                                   1/3        1075   
+DM,FC Y vendor.trustonic.tee@1.1::ITee/default                                                   1/3        1075   
+
+| All HIDL interfaces getService() has ever returned as a passthrough interface;
+| PIDs / processes shown below might be inaccurate because the process
+| might have relinquished the interface or might have died.
+| The Server / Server CMD column can be ignored.
+| The Clients / Clients CMD column shows all process that have ever dlopen'ed 
+| the library and successfully fetched the passthrough implementation.
+VINTF R Interface                                                                             Thread Use Server Clients
+FC    ? android.hardware.audio.effect@6.0::IEffectsFactory/default                            N/A        1000   1000
+FC    ? android.hardware.audio.effect@7.0::IEffectsFactory/default                            N/A        1000   1000
+FC    ? android.hardware.audio@6.0::IDevicesFactory/default                                   N/A        1000   1000
+FC    ? android.hardware.audio@7.0::IDevicesFactory/default                                   N/A        1000   1000
+X     ? android.hardware.bluetooth.audio@2.1::IBluetoothAudioProvidersFactory/default         N/A        1000   1000
+FC    ? android.hardware.bluetooth@1.1::IBluetoothHci/default                                 N/A        1001   1001
+FC    ? android.hardware.boot@1.2::IBootControl/default                                       N/A        739    739
+FC    ? android.hardware.camera.provider@2.6::ICameraProvider/internal/0                      N/A        1338   1338
+FC    ? android.hardware.gatekeeper@1.0::IGatekeeper/default                                  N/A        1004   1004
+FC    ? android.hardware.gnss@2.1::IGnss/default                                              N/A        1005   1005
+FC    ? android.hardware.graphics.allocator@4.0::IAllocator/default                           N/A        1009   1009
+DM,FC ? android.hardware.graphics.mapper@4.0::IMapper/default                                 N/A        N/A    1010 1106 1338 1382 1763 2431 2453 2472 3028 3912 4267 9170 18062 20622 21149 21463 22559 22644 23096 23987 24102
+X     ? android.hardware.health@2.1::IHealth/default                                          N/A        1011   1011
+DM,FC ? android.hardware.renderscript@1.0::IDevice/default                                    N/A        N/A    2453 18062
+FC    ? android.hardware.soundtrigger@2.3::ISoundTriggerHw/default                            N/A        1000   1000
+FC    ? android.hardware.thermal@2.0::IThermal/default                                        N/A        1036   1036
+FM    ? android.hidl.memory@1.0::IMapper/ashmem                                               N/A        N/A    1078 1380
+FC    ? vendor.mediatek.hardware.bluetooth.audio@2.2::IBluetoothAudioProvidersFactory/default N/A        1000   1000
+FC    ? vendor.mediatek.hardware.camera.atms@1.0::IATMs/default                               N/A        1338   1338
+FC    ? vendor.mediatek.hardware.camera.bgservice@1.1::IBGService/internal/0                  N/A        1338   1338
+X     ? vendor.mediatek.hardware.camera.isphal@1.0::IISPModule/internal/0                     N/A        1338   1338
+FC    ? vendor.mediatek.hardware.camera.isphal@1.1::IISPModule/internal/0                     N/A        1338   1338
+FC    ? vendor.mediatek.hardware.mtkpower@1.2::IMtkPerf/default                               N/A        1046   1046
+FC    ? vendor.mediatek.hardware.mtkpower@1.2::IMtkPower/default                              N/A        1046   1046
+FC    ? vendor.mediatek.hardware.nvram@1.1::INvram/default                                    N/A        1051   1051
+FC    ? vendor.mediatek.hardware.pq@2.15::IPictureQuality/default                             N/A        1380   1380
+FC    ? vendor.mediatek.hardware.videotelephony@1.0::IVideoTelephony/default                  N/A        1038   1038
+
+| All available HIDL passthrough implementations (all -impl.so files).
+| These may return subclasses through their respective HIDL_FETCH_I* functions.
+VINTF R Interface                                                                     Thread Use Server Clients
+X     ? android.hardware.audio.effect@6.0::I*/* (/vendor/lib/hw/)                     N/A        N/A    
+X     ? android.hardware.audio.effect@6.0::I*/* (/vendor/lib64/hw/)                   N/A        N/A    1000
+X     ? android.hardware.audio.effect@7.0::I*/* (/vendor/lib/hw/)                     N/A        N/A    
+X     ? android.hardware.audio.effect@7.0::I*/* (/vendor/lib64/hw/)                   N/A        N/A    1000
+X     ? android.hardware.audio@6.0::I*/* (/vendor/lib/hw/) (-mediatek)                N/A        N/A    
+X     ? android.hardware.audio@6.0::I*/* (/vendor/lib64/hw/) (-mediatek)              N/A        N/A    1000
+X     ? android.hardware.audio@7.0::I*/* (/vendor/lib/hw/) (-mediatek)                N/A        N/A    
+X     ? android.hardware.audio@7.0::I*/* (/vendor/lib64/hw/) (-mediatek)              N/A        N/A    1000
+X     ? android.hardware.bluetooth.audio@2.0::I*/* (/vendor/lib/hw/)                  N/A        N/A    
+X     ? android.hardware.bluetooth.audio@2.0::I*/* (/vendor/lib64/hw/)                N/A        N/A    
+X     ? android.hardware.bluetooth.audio@2.1::I*/* (/vendor/lib/hw/)                  N/A        N/A    
+X     ? android.hardware.bluetooth.audio@2.1::I*/* (/vendor/lib64/hw/)                N/A        N/A    1000
+X     ? android.hardware.bluetooth@1.1::I*/* (/vendor/lib/hw/) (-mediatek)            N/A        N/A    
+X     ? android.hardware.bluetooth@1.1::I*/* (/vendor/lib64/hw/) (-mediatek)          N/A        N/A    1001
+X     ? android.hardware.boot@1.0::I*/* (/vendor/lib/hw/) (-1.2-mtkimpl)              N/A        N/A    
+X     ? android.hardware.boot@1.0::I*/* (/vendor/lib64/hw/) (-1.2-mtkimpl)            N/A        N/A    739
+X     ? android.hardware.camera.provider@2.6::I*/* (/vendor/lib64/hw/) (-mediatek)    N/A        N/A    
+X     ? android.hardware.gatekeeper@1.0::I*/* (/vendor/lib/hw/)                       N/A        N/A    
+X     ? android.hardware.gatekeeper@1.0::I*/* (/vendor/lib64/hw/)                     N/A        N/A    1004
+X     ? android.hardware.gnss@2.1::I*/* (/vendor/lib64/hw/) (-mediatek)               N/A        N/A    1005
+X     ? android.hardware.graphics.allocator@4.0::I*/* (/vendor/lib/hw/) (-mediatek)   N/A        N/A    
+X     ? android.hardware.graphics.allocator@4.0::I*/* (/vendor/lib64/hw/) (-mediatek) N/A        N/A    
+X     ? android.hardware.graphics.mapper@4.0::I*/* (/vendor/lib/hw/) (-mediatek)      N/A        N/A    
+X     ? android.hardware.graphics.mapper@4.0::I*/* (/vendor/lib64/hw/) (-mediatek)    N/A        N/A    
+X     ? android.hardware.health@2.0::I*/* (/vendor/lib/hw/) (-2.1)                    N/A        N/A    
+X     ? android.hardware.health@2.0::I*/* (/vendor/lib64/hw/) (-2.1)                  N/A        N/A    1011
+X     ? android.hardware.renderscript@1.0::I*/* (/vendor/lib/hw/)                     N/A        N/A    
+X     ? android.hardware.renderscript@1.0::I*/* (/vendor/lib64/hw/)                   N/A        N/A    2453 18062
+X     ? android.hardware.soundtrigger@2.3::I*/* (/vendor/lib/hw/)                     N/A        N/A    
+X     ? android.hardware.soundtrigger@2.3::I*/* (/vendor/lib64/hw/)                   N/A        N/A    1000
+X     ? android.hardware.thermal@1.0::I*/* (/vendor/lib/hw/)                          N/A        N/A    
+X     ? android.hardware.thermal@1.0::I*/* (/vendor/lib64/hw/)                        N/A        N/A    
+X     ? android.hardware.thermal@2.0::I*/* (/vendor/lib/hw/)                          N/A        N/A    
+X     ? android.hardware.thermal@2.0::I*/* (/vendor/lib64/hw/)                        N/A        N/A    1036
+X     ? android.hidl.memory@1.0::I*/* (/apex/com.android.vndk.v31/lib/hw/)            N/A        N/A    
+X     ? android.hidl.memory@1.0::I*/* (/apex/com.android.vndk.v31/lib64/hw/)          N/A        N/A    1078 1338 1380
+X     ? vendor.mediatek.hardware.bluetooth.audio@2.1::I*/* (/vendor/lib/hw/)          N/A        N/A    
+X     ? vendor.mediatek.hardware.bluetooth.audio@2.1::I*/* (/vendor/lib64/hw/)        N/A        N/A    
+X     ? vendor.mediatek.hardware.bluetooth.audio@2.2::I*/* (/vendor/lib/hw/)          N/A        N/A    
+X     ? vendor.mediatek.hardware.bluetooth.audio@2.2::I*/* (/vendor/lib64/hw/)        N/A        N/A    1000
+X     ? vendor.mediatek.hardware.camera.atms@1.0::I*/* (/vendor/lib/hw/)              N/A        N/A    
+X     ? vendor.mediatek.hardware.camera.atms@1.0::I*/* (/vendor/lib64/hw/)            N/A        N/A    
+X     ? vendor.mediatek.hardware.camera.bgservice@1.1::I*/* (/vendor/lib/hw/)         N/A        N/A    
+X     ? vendor.mediatek.hardware.camera.bgservice@1.1::I*/* (/vendor/lib64/hw/)       N/A        N/A    
+X     ? vendor.mediatek.hardware.camera.ccap@1.0::I*/* (/vendor/lib64/hw/)            N/A        N/A    
+X     ? vendor.mediatek.hardware.camera.isphal@1.0::I*/* (/vendor/lib64/hw/)          N/A        N/A    
+X     ? vendor.mediatek.hardware.camera.isphal@1.1::I*/* (/vendor/lib64/hw/)          N/A        N/A    
+X     ? vendor.mediatek.hardware.camera.lomoeffect@1.0::I*/* (/vendor/lib64/hw/)      N/A        N/A    
+X     ? vendor.mediatek.hardware.keymaster_attestation@1.1::I*/* (/vendor/lib/hw/)    N/A        N/A    
+X     ? vendor.mediatek.hardware.keymaster_attestation@1.1::I*/* (/vendor/lib64/hw/)  N/A        N/A    
+X     ? vendor.mediatek.hardware.mms@1.6::I*/* (/vendor/lib/hw/)                      N/A        N/A    
+X     ? vendor.mediatek.hardware.mms@1.6::I*/* (/vendor/lib64/hw/)                    N/A        N/A    
+X     ? vendor.mediatek.hardware.mtkpower@1.2::I*/* (/vendor/lib/hw/)                 N/A        N/A    
+X     ? vendor.mediatek.hardware.mtkpower@1.2::I*/* (/vendor/lib64/hw/)               N/A        N/A    1046
+X     ? vendor.mediatek.hardware.nvram@1.1::I*/* (/vendor/lib/hw/)                    N/A        N/A    
+X     ? vendor.mediatek.hardware.nvram@1.1::I*/* (/vendor/lib64/hw/)                  N/A        N/A    1051
+X     ? vendor.mediatek.hardware.pq@2.15::I*/* (/vendor/lib/hw/)                      N/A        N/A    
+X     ? vendor.mediatek.hardware.pq@2.15::I*/* (/vendor/lib64/hw/)                    N/A        N/A    
+X     ? vendor.mediatek.hardware.videotelephony@1.0::I*/* (/vendor/lib/hw/)           N/A        N/A    
+X     ? vendor.mediatek.hardware.videotelephony@1.0::I*/* (/vendor/lib64/hw/)         N/A        N/A    1038
+

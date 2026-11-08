@@ -1,0 +1,4 @@
+tanggal: Sun Nov  8 22:21:53 WIB 2026
+model: Infinix X6882
+android: 17 (sdk 37)
+fingerprint: Infinix/X6882-OP/Infinix-X6882:17/CP2A.260605.016/000420068:user/release-keys

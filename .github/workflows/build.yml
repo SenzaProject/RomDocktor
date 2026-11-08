@@ -18,7 +18,7 @@ jobs:
         with:
           gradle-version: 8.7
       - name: Unit test
-        run: gradle :core-model:test :core-shell:testDebugUnitTest --stacktrace
+        run: gradle :core-model:test :parser:test :core-shell:testDebugUnitTest :collector:testDebugUnitTest --stacktrace
       - name: Build APK
         run: gradle :app:assembleDebug --stacktrace
       - uses: actions/upload-artifact@v4
